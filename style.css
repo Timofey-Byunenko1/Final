@@ -240,6 +240,17 @@ p{
   font-family: 'CeraPro',;
 }
 
+.svg-left{
+    
+    margin-right: 25px;
+    margin-left: 100px;
+    
+}
+
+
+.svg-gog{
+    margin-right: 25px;
+}
 
 
 
@@ -346,7 +357,16 @@ padding: 12px 10px 0px;
 
 
 .green{
+    color:#3D3D3D ; 
+    padding-bottom: 25px;
+    border-bottom: 3px solid transparent;
+    position: relative;
+    text-align: left;
+
+   &:hover{
     color: #46A358;
+ border-color: #46A358;
+   }
 }
 
 .text{
