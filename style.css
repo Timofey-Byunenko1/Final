@@ -63,6 +63,15 @@ font-family: 'CeraPro',;
 }
 
 
+.rovno{
+     display: flex;
+    justify-content:flex-start;
+    align-items: center;
+  
+}
+
+
+
 .btn{
     background-color: #46A358;
     color:#FFFFFF ;
@@ -174,7 +183,7 @@ a{
 
 .btn1{
     background-color:#46A358 ;
-    padding:   8px 24px 7px;
+    padding:   8px 24px 10px;
     color: #FFFFFF;
     font-family: Cera pro;
     border-radius: 6px;
@@ -184,9 +193,25 @@ a{
     line-height: 100%;
     margin: auto;
     margin-right: auto;
+    text-align: center;
+    justify-content: center;
 
+    &:hover{
+ 
+        background-color: #1d7e31;
+        .login{
+            color: #b5abab;
+        }
+
+    }
+    
 }
 
+.login{
+    color: #ffffff;
+  
+   
+}
 
 .heade{
     display: flex;
@@ -200,11 +225,13 @@ a{
 
 h2{
     color:#46A358 ;
+    margin-left: 5px;
 }
 
 a:hover{
     color: #252424;
 }
+
 
 
 
@@ -435,18 +462,25 @@ justify-content: space-around;
     margin-bottom: 30px;
 }
 
-.buton{
-    background-color:  #46A358;
-      color: #FFFFFF;
-    margin: 4px;
-}
 
 .btn{
   background-color:#fffefe ;  
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
   color:#3D3D3D ;
  margin: 4px;
+ border-color:#E5E5E5 ;
+
+ &:hover{
+      background-color:  #46A358;
+      color: #FFFFFF;
+ }
 
 }
+
+
+
 
 .discount{
 display: none;
@@ -547,6 +581,7 @@ display: none;
 .gama-8{
 
  margin-top: 250px;
+
 
 .main-section-pop{
     display: flex;
@@ -764,15 +799,12 @@ padding-left: 10px;
 
 .inmaa{
 
- 
-
-
 
 .alex-alfa{
     display: flex;
    max-width:  1200px;
     margin-right: 80px;
-    margin-top: 50px;
+    margin-top: 300px;
     margin-left: 160px;
 }
 
