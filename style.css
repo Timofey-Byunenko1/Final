@@ -224,7 +224,7 @@ a{
     margin-right: auto;
     text-align: center;
     justify-content: center;
-
+    cursor: pointer;
     &:hover{
  
         background-color: #1d7e31;
@@ -899,6 +899,7 @@ cursor: pointer;
    max-width:  1200px;
    justify-content: center;
     margin-top: 100px;
+    max-height: 250px;
     
 
 }
