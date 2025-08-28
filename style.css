@@ -45,6 +45,7 @@ section{
     text-align: left;
     background-color:#F5F5F580 ;
     height: 450px;
+      font-family: 'Cera Pro',;
 }
 
 .section1 .container1{
@@ -67,7 +68,6 @@ section{
 
 
 .zagolovok{
-  font-family: 'Cera Pro',;
 font-weight: 900;
 font-size: 70px;
 line-height: 70px;
@@ -240,9 +240,13 @@ a{
     margin: auto;
     max-width: 1200px;
      align-items: center; 
-     
+        font-family: 'Cera Pro',;
 }
 
+
+.hhhhhhhh{
+      font-family: 'Cera Pro',;
+}
 
 h2{
     color:#46A358 ;
@@ -253,6 +257,7 @@ h2{
 
 a:hover{
     color: #252424;
+       font-family: 'Cera Pro',;
 }
 
 
@@ -285,6 +290,10 @@ p{
 
 }
 
+
+.oooo{
+     font-family: 'CeraPro',;
+}
 
 hr{
     max-width: 1200px;
@@ -499,7 +508,7 @@ justify-content: space-around;
 
     
   font-family: 'CeraPro',;
-  font-weight: bold;
+  color:#3D3D3D ;
 
 
 }
