@@ -39,7 +39,7 @@ span{
 }
 
 section{
-
+    margin-top: 0;
     max-width: 1200px;
     margin: auto;
     text-align: left;
@@ -63,6 +63,8 @@ section{
     max-width: 60%;
     max-width: 600px;
 }
+
+
 
 .zagolovok{
   font-family: 'Cera Pro',;
@@ -245,7 +247,9 @@ a{
 h2{
     color:#46A358 ;
     margin-left: 5px;
+    font-family: 'CeraPro',;
 }
+
 
 a:hover{
     color: #252424;
@@ -289,7 +293,9 @@ hr{
     height: 0px;
 }
 
-
+.section1{
+    margin-top: 0;
+}
 
 
 .section1 .right{
