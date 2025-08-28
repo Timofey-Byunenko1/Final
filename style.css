@@ -17,7 +17,7 @@
 header{
     max-width: 1200px;
  margin: auto;
- 
+ margin-bottom: 0px;
 }
 
 
@@ -27,11 +27,11 @@ h3{
     margin: auto;
     margin-top: 20px;
     color: #3D3D3D;
-      font-family: 'Cera Pro',;
+      font-family: Cera Pro ;
 }
 
 .oooo{
-      font-family: 'Cera Pro',;
+      font-family: Cera Pro ;
 }
 
 span{
@@ -44,8 +44,8 @@ section{
     margin: auto;
     text-align: left;
     background-color:#F5F5F580 ;
-    height: 450px;
-      font-family: 'Cera Pro',;
+    height: 550px;
+      font-family: Cera Pro ;
 }
 
 .section1 .container1{
@@ -75,7 +75,8 @@ letter-spacing: 0%;
 text-transform: uppercase;
 margin: auto;
 color:#3D3D3D ;
-font-family: 'CeraPro',;
+font-family: CeraPro ;
+margin-bottom: 0px;
 }
 
 
@@ -83,7 +84,14 @@ font-family: 'CeraPro',;
      display: flex;
     justify-content:flex-start;
     align-items: center;
-  
+    margin-top: 22px;
+}
+
+
+.tehth{
+    color:#727272 ;
+    
+    margin-bottom: 20px;
 }
 
 
@@ -240,24 +248,25 @@ a{
     margin: auto;
     max-width: 1200px;
      align-items: center; 
-        font-family: 'Cera Pro',;
+    max-height: 110px;
+    justify-content: center;
 }
 
 
 .hhhhhhhh{
-      font-family: 'Cera Pro',;
+      font-family: Cera Pro ;
 }
 
 h2{
     color:#46A358 ;
     margin-left: 5px;
-    font-family: 'CeraPro',;
+    font-family: CeraPro ;
 }
 
 
 a:hover{
     color: #252424;
-       font-family: 'Cera Pro',;
+       
 }
 
 
@@ -265,11 +274,11 @@ a:hover{
 
 p{
    color:#727272 ; 
-  font-family: 'CeraPro',;
+  
 }
 
 .svg-left{
-    
+    cursor: pointer;
     margin-right: 25px;
     margin-left: 100px;
     
@@ -277,6 +286,7 @@ p{
 
 
 .svg-gog{
+    cursor: pointer;
     margin-right: 25px;
 }
 
@@ -507,7 +517,7 @@ justify-content: space-around;
     margin-bottom: 0px;
 
     
-  font-family: 'CeraPro',;
+  font-family: 'CeraPro' ;
   color:#3D3D3D ;
 
 
@@ -719,6 +729,16 @@ width: 140px;
 height: 40px;
 margin-left: auto;
 margin-top: 10px;
+justify-content: center;
+text-align: center;
+align-items: center;
+&:hover{
+    transition: 1s;
+    background-color: #0f6220;
+    color: #b5abab;
+    box-shadow:0 0 30px #0f6220;
+}
+
      }
 
 }
@@ -831,6 +851,13 @@ color:#3D3D3D ;
 margin-top: 0;
 background-color:#FBFBFB ;
 padding-left: 10px;
+margin-bottom: 10px;
+
+
+&:hover{
+  color: #0f6220;
+  border: #000100;
+}
 }
 
   }
@@ -1014,19 +1041,20 @@ opacity: 1;
 .alex-shop{
     color: #46A358;
     padding-left: 5px;
+    font-size: 20px;
 }
 
 
 
 
 .alex-p-text{
-  font-family: 'Cera Pro' ;
+  font-family: Cera Pro ;
 font-weight: 400px;
 font-size: 14px;
 line-height: 22px;
 letter-spacing: 0%;
 color:#3D3D3D ;
-max-width: 150px;
+max-width: 170px;
 margin-left: 5px;
 }
 
