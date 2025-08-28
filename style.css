@@ -792,6 +792,7 @@ font-family: 'CeraPro',;
 
 .div-dix-two{
     background-color: #FBFBFB;
+    
 }
 
 .img-dix{
@@ -829,7 +830,7 @@ padding-right: 15px;
 
 
 .p-dix{
-font-family: Cera Pro;
+
 font-weight: 400;
 font-size: 14px;
 line-height: 22px;
@@ -852,7 +853,8 @@ margin-top: 0;
 background-color:#FBFBFB ;
 padding-left: 10px;
 margin-bottom: 10px;
-
+z-index: 2;
+cursor: pointer;
 
 &:hover{
   color: #0f6220;
