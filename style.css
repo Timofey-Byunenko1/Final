@@ -7,7 +7,7 @@
 header{
     max-width: 1200px;
  margin: auto;
- margin-top: 10px;
+ 
 }
 
 
@@ -84,6 +84,11 @@ font-family: 'CeraPro',;
     text-transform: uppercase;
     margin-top: 20px;
     border:#46A358 ;
+
+    &:hover{
+        transition: 1s;
+        box-shadow: 0 0 20px #0f6220;
+    }
 }
 .navigation-ro {
    & > ul{
@@ -326,7 +331,7 @@ hr{
 }
 
 .left-pop{
-      max-width: 300px;
+     max-width: 300px;
     background-color: #FBFBFB;
     margin-left: 100px;
 }
@@ -368,6 +373,14 @@ padding: 12px 10px 0px;
  border-color: #46A358;
    }
 }
+
+.tttt{
+
+    &:hover{
+        color: #46A358;;
+    }
+}
+
 
 .text{
     font-size: 15px;
@@ -412,7 +425,9 @@ margin-left: 10px;
 }
 
 .img-kyst-p{
-    margin-right: 20px;
+    margin-right: 25px;
+    justify-content: left;
+
 }
 
 
@@ -420,6 +435,7 @@ margin-left: 10px;
 .mini-section1{
    background: linear-gradient(180deg, rgba(70, 163, 88, 0.1) 0%, rgba(70, 163, 88, 0.03) 100%);
    margin-top: 200px;
+   justify-content: center;
    
 }
 
@@ -927,6 +943,11 @@ line-height: 16px;
 letter-spacing: 0%;
 border-radius: 6px;
 color:#FFFFFF ;
+
+&:hover{
+    transition: 2s;
+    background-color: #0f6220;
+}
 }
 
 
@@ -1042,11 +1063,63 @@ border-color:#46A35833 ;
 background-color:#FBFBFB ;
 margin-right: 10px;
 padding-top: 5px;
+
+}
+}
+
+.fasebook{
+&:hover{
+    transition: 1s;
+    background-color: #1877f2;
+    box-shadow: 0 0 15px #1877f2, 0 0 30px #1877f2;
+
 }
 
 
+ }
 .alex-doun{
     text-align: center;
+}
+
+
+.insta{
+    &:hover{
+        transition: 1s;
+          background-color: #b92387;
+    box-shadow: 0 0 15px #b92387, 0 0 30px #b92387;
+
+    }
+}
+
+
+.tviter{
+    
+    &:hover{
+        transition: 1s;
+          background-color: #20b0e4;
+    box-shadow: 0 0 15px  #20b0e4, 0 0 30px  #20b0e4;
+
+}
+}
+
+
+.lit{
+     &:hover{
+        transition: 1s;
+          background-color: #8220e4;
+    box-shadow: 0 0 15px  #8220e4 , 0 0 30px  #8220e4 ;
+
+}
+}
+
+
+.youtub{
+      &:hover{
+        transition: 1s;
+          background-color: #ca3716;
+    box-shadow: 0 0 15px   #ca3716 , 0 0 30px   #ca3716 ;
+
+}
 }
 
 
@@ -1061,4 +1134,4 @@ color:#3D3D3D ;
 opacity: 1;
 
 } 
- }
+ 
