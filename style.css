@@ -17,7 +17,7 @@
 header{
     max-width: 1200px;
  margin: auto;
- margin-bottom: 0px;
+ margin-bottom: 10px;
 }
 
 
@@ -39,32 +39,39 @@ span{
 }
 
 section{
-    margin-top: 0;
+    margin-top: 0px;
     max-width: 1200px;
     margin: auto;
     text-align: left;
     background-color:#F5F5F580 ;
-    height: 550px;
+   max-height: 550px;
       font-family: Cera Pro ;
 }
 
 .section1 .container1{
     background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
-    padding: 30px 15px;
+    padding-left:15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+    
 }
+
+
 
 .left{
     max-width: 600px;
     margin-left: 30px;
+    justify-content: center;
     max-width: 60%;
+    align-items: center;
 }
 
 .section1 .left{
     display: inline-block;
     max-width: 60%;
     max-width: 600px;
-}
 
+}
 
 
 .zagolovok{
@@ -76,7 +83,7 @@ text-transform: uppercase;
 margin: auto;
 color:#3D3D3D ;
 font-family: CeraPro ;
-margin-bottom: 0px;
+margin-bottom: 20px;
 }
 
 
@@ -85,13 +92,14 @@ margin-bottom: 0px;
     justify-content:flex-start;
     align-items: center;
     margin-top: 22px;
+    margin-bottom: 0px;
 }
 
 
 .tehth{
     color:#727272 ;
     
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 
 
@@ -106,8 +114,8 @@ margin-bottom: 0px;
     font-size: 16px;
     line-height: 20px;
     text-transform: uppercase;
-    margin-top: 20px;
     border:#46A358 ;
+    
 
     &:hover{
         transition: 1s;
@@ -200,6 +208,7 @@ li{
 
 .a{
     margin-right: 40px;
+    
 }
 
 a{
@@ -222,9 +231,11 @@ a{
     line-height: 100%;
     margin: auto;
     margin-right: auto;
+    margin-left: auto;
     text-align: center;
     justify-content: center;
     cursor: pointer;
+    
     &:hover{
  
         background-color: #1d7e31;
@@ -363,7 +374,7 @@ hr{
 .main-container-pop{
   display: flex;
   align-items: flex-start;
-  margin-top: 150px;
+  margin-top: 50px;
 
 
 }
