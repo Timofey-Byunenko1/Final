@@ -46,11 +46,9 @@
 
 .top-section-opo{
 
-
-
 header{
-    max-width: 1200px;
- margin: auto;
+ max-width: 1200px;
+margin: auto;
  margin-bottom: 10px;
 }
 
@@ -80,8 +78,8 @@ span{
 
 section{
     margin-top: 0px;
-    max-width: 1200px;
-    margin: auto;
+max-width: 1200px;
+  margin: auto;
     text-align: left;
     background-color:#F5F5F580 ;
    max-height: 550px;
@@ -420,20 +418,14 @@ hr{
 
 
 .main-section-pop{
-display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  margin-top: 40px;
-  margin: 0 auto;
-  width: auto;
-  max-width: 1200px;
-}
+
+
 .main-container-pop{
   display: flex;
   align-items: flex-start;
   justify-content: center;
   margin-top: 40px;
-  margin: 0 auto;
+
   width: auto;
   max-width: 1200px;
 }
@@ -442,7 +434,7 @@ display: flex;
     max-width: 300px;
     width: 100%;
     background-color: #FBFBFB;
-    margin-left: 35px;
+    
     justify-content: center;
 }
 
@@ -451,8 +443,7 @@ display: flex;
    width: 100%;
    background-color:#FFFFFF ;
    height: 800px;
-   margin-left: 30px;
-    
+
 }
 
 .svg-vor{
@@ -608,7 +599,7 @@ justify-content: space-around;
     display: flex;
     justify-content: center;
      flex-wrap: wrap;
-     gap: 20px;
+    
 }
 
 .number{
@@ -715,7 +706,7 @@ display: none;
 }
 
  
-
+}
 
 
 
@@ -826,6 +817,7 @@ align-items: center;
 
 .div-zagolovok{
     margin-top: 100px;
+   
 }
 
 .zagolovok{
