@@ -1,4 +1,37 @@
-@media screen and (max-width: 600px)  {
+@media screen and (min-width: 769px) and (max-width: 1200px)  {
+
+.main-section-pop{
+    margin: auto;
+    width:auto ;
+}
+
+.left{
+    max-width: none;
+    justify-content: center;
+    text-align:center ;
+    margin-left: 100px;
+}
+
+
+
+.right-pop{
+     display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+}
+
+.png-colection{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 768px)  {
 
 .flex{
     display: flex;
