@@ -82,7 +82,7 @@ max-width: 1200px;
   margin: auto;
     text-align: left;
     background-color:#F5F5F580 ;
-   max-height: 550px;
+
       font-family: Cera Pro ;
       margin-bottom: 10px;
 }
@@ -874,8 +874,7 @@ font-family: 'CeraPro',;
 }
 
 .img-dix{
-    width: 268px;
-    height: 167.17px;
+  
     width: 100%;
     height: 100%;
 }
