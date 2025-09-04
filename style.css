@@ -870,7 +870,7 @@ font-family: 'CeraPro',;
 
 .div-dix-two{
     background-color: #FBFBFB;
-    
+  
 }
 
 .img-dix{
@@ -971,14 +971,15 @@ cursor: pointer;
 
 
 .inmaa{
-
+  max-width:  1242px;
 
 .alex-alfa{
     display: flex;
-   max-width:  1200px;
+flex-wrap: wrap;
+   max-width:  1205px;
    justify-content: center;
     margin-top: 200px;
-    max-height: 250px;
+ height: auto;
     
 
 }
@@ -992,7 +993,7 @@ cursor: pointer;
 
 
 .alex-div{
-width: 265px;
+width: 260px;
 height: 248px;
 top: 24px;
 left: 25px;
@@ -1048,7 +1049,7 @@ color:#3D3D3D ;
 .alex-section{
     background-color:#FBFBFB ;
     height: 248px;
-    width: 400px;
+    width: 375px;
     padding-left: 16px;
 }
 
@@ -1107,7 +1108,7 @@ opacity: 1;
 
 
 .alex-main{
-    width: 1160px;
+    width: 1180px;
     max-width: 1160px;
     
     height:88px ;
@@ -1150,13 +1151,15 @@ margin-left: 5px;
 }
 
 .alex-amega{
-    width: 1200px;
+   max-width: 1200px;
     display: flex;
     justify-content: space-around;
    
     max-width: 1200px;
     background-color: #FBFBFB; 
     height: 236px;
+
+    flex-wrap: wrap;
 }
 
 .amega-div{
@@ -1221,6 +1224,7 @@ padding-top: 5px;
  }
 .alex-doun{
     text-align: center;
+    margin-top: 30px;
 }
 
 
