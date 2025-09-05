@@ -851,7 +851,7 @@ font-family: 'CeraPro',;
 
 .flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 30px;
     margin-left: 50px;
@@ -981,7 +981,7 @@ cursor: pointer;
 flex-wrap: wrap;
    max-width:  1205px;
    justify-content: center;
-    margin-top: 200px;
+
  height: auto;
     
 

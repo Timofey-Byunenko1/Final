@@ -40,6 +40,19 @@
     height: 135px;
    }
 
+
+
+.all-plans{
+    display: none;
+}
+
+
+.ule{
+    display: flex;
+    display: none;
+}
+
+
 }
 
 @media screen and (max-width: 768px)  {
@@ -56,6 +69,12 @@
     height: 135px;
    }
 
+
+.all-plans{
+    display: none;
+}
+
+   
 
    .left{
     margin-top: 15px;
