@@ -1111,10 +1111,10 @@ opacity: 1;
 
 
 .alex-main{
-    width: 1180px;
+
     max-width: 1160px;
     
-    height:88px ;
+    min-height:88px ;
     background-image:linear-gradient(to right, #EDF6EF, #52C368 );
     display: flex;
     text-align: center;

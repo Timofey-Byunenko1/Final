@@ -1,4 +1,4 @@
-@media screen and (min-width: 769px) and (max-width: 1200px)  {
+ @media screen and (min-width: 769px) and (max-width: 1200px)  {
 
 
 .png-colection{
@@ -6,10 +6,9 @@
     gap: 20px;
 }
 
-
-.oooo{
-    margin-top: 20px;
-}
+.left{
+    margin-top: 15px;
+   }
 
 .right{
     margin-left: 120px;
@@ -78,52 +77,4 @@
     padding-right: 20px;
 }
 
-}
-
-@media screen and (max-width: 768px)  {
-
-.left-pop{
-    display: none;
-}
-
-
-
-.alex-main{
-
-    max-width: 1160px; 
-    background-image:linear-gradient(to right, #EDF6EF, #52C368 );
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items:center;
-    justify-content:space-between;
-    padding-left: 20px;
-    padding-bottom: 5px;
-    padding-right: 20px;
-}
-
-
- .smail-img{
-    
-    bottom: 0px;
-    width: 135px;
-    height: 135px;
-   }
-
-
-.all-plans{
-    display: none;
-}
-
-   
-
-   .left{
-    margin-top: 15px;
-   }
-}
-
-
-
-.navigation-ro{
-    display: none;
 }
