@@ -1,5 +1,16 @@
-@media screen and (min-width: 769px) and (max-width: 1200px)  {
+@media screen and  (max-width: 768px)  {
 
+.rovno{
+    margin-left: 10px;
+}
+
+.main-section-pop-gama{
+    margin-left: 0px;
+}
+
+.navigation-ro {
+    display: none !important;
+}
 
 .png-colection{
     justify-content: space-around;
@@ -12,7 +23,7 @@
 }
 
 .right{
-    margin-left: 120px;
+    margin-left: 10px;
 }
 
 .svg-left{
@@ -29,7 +40,7 @@
 
 .number{
 
-    justify-content: center;
+    justify-content: center !important;
 }
 
 .main-section-pop-gama{
@@ -39,7 +50,9 @@
 
 .alex-alfa{
     flex-direction: column;
+    margin-left: 150px;
 }
+
 
  .smail-img{
 
@@ -56,31 +69,11 @@
 
 
 .ule{
-    display: flex;
+
     display: none;
 }
 
 
-
-
-.alex-main{
-    max-width: 1160px;
-    
-    height:88px ;
-    background-image:linear-gradient(to right, #EDF6EF, #52C368 );
-    display: flex;
-    
-    text-align: center;
-    align-items:center;
-    justify-content:space-between;
-    padding-left: 20px;
-    padding-bottom: 5px;
-    padding-right: 20px;
-}
-
-}
-
-@media screen and (max-width: 768px)  {
 
 .left-pop{
     display: none;
@@ -103,6 +96,30 @@
 }
 
 
+.alex-amega{
+    display: block !important;
+    margin-left: 150px;
+    background-color: #EDF6EF ;
+    
+}
+
+.btn-div{
+    margin-bottom: 30px;
+}
+
+.amega-hhhh{
+    display: none;
+}
+
+
+.alex-doun{
+    display: none;
+}
+
+.imgam{
+    display: none;
+}
+
  .smail-img{
     
     bottom: 0px;
@@ -124,6 +141,3 @@
 
 
 
-.navigation-ro{
-    display: none;
-}

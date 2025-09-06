@@ -55,11 +55,13 @@
 
 
 .ule{
-    display: flex;
+
     display: none;
 }
 
-
+.navigation-ro{
+    display: none;
+}
 
 
 .alex-main{
